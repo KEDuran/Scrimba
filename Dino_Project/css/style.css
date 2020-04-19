@@ -1,3 +1,7 @@
+body {
+	margin: 0;
+}
+
 header {
 	background-color: darkslategrey;
 	color: lightgray;
@@ -16,6 +20,10 @@ main {
 	width: 600px;
 	padding: 25px;
 	border: solid 5px maroon;
+	margin: 50px auto;
+	/* this is another way to enter:
+    margin-left: auto; 
+	margin-right: auto; */
 }
 
 footer {
